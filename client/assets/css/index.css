@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
 /* Add background color to the body */
 body {
     background-color: rgba(68, 70, 84, 1.0);
@@ -8,6 +10,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+}
+h1{
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 200;
 }
 
 select {
